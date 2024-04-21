@@ -39,4 +39,9 @@
 - [ ] Logaritmo Neperiano(natural)
 
 ### <strong> Projeto Calculadora Simples
-<
+https://github.com/alinesanoli/CalculadoraSimples_Cientifica/assets/69534674/32c6be9c-bf7d-4ce4-affb-5e2f55a1b7b6
+
+### <strong> Projeto Calculadora Científica
+https://github.com/alinesanoli/CalculadoraSimples_Cientifica/assets/69534674/e53fab03-80ce-46dc-ae09-1b495c30d180
+
+
