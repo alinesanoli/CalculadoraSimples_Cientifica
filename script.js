@@ -10,7 +10,7 @@ function clean(){
 }
 
 function backspace(){
-    if(resultado.textContent){ //vendo se tem algo dentro do resultado{
+    if(resultado.textContent){ 
         let result = document.getElementById('resultado').innerHTML
         resultado.innerHTML = result.substring(0, result.length -1);
     }
@@ -18,7 +18,7 @@ function backspace(){
 
 function confirma(){
     if(resultado.textContent != 'Erro') {
-        document.getElementById('resultado').innerHTML = eval(resultado.innerHTML) //o método eval pega os valores que estão no id resultado (p) na tela (innerHTML) e faz o calculo utilizando os valores que estão nele
+        document.getElementById('resultado').innerHTML = eval(resultado.innerHTML) //o método eval pega os valores que estão no id resultado (p) na tela (innerHTML) e faz o cálculo com base no valor que está contido nele
     }
 }
 
@@ -52,5 +52,14 @@ function pi(){
 }
 
 function fatorial(){
-    
+    var base = document.getElementById('resultado').innerHTML;
+    if(base != 'Erro' && base != 0){
+        var valor = 1;
+        for (var i=base; i > 1; i--){
+            valor = valor * i;
+        }
+        document.getElementById('resultado').innerHTML = valor;
+    }
 }
+
+
